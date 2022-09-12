@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pull": "git pull",
+    "commit": "git add . && git commit -m '-' "
+    
   },
   "dependencies": {
     "@next/bundle-analyzer": "^12.1.6",
